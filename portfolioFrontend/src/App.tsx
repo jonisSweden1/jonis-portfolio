@@ -17,7 +17,7 @@ import { BlogPage } from "./sides/BlogPage"
 export const App = () => (
   <Provider store={store}>
     <BrowserRouter basename="jonis-portfolio">
-      <Navbar>
+      <Navbar id="navBarHeader">
           <NavbarBrand>
             <Link to="/">
             <img src={logo} id="websiteLogo" alt="website_logo"/>
@@ -78,25 +78,24 @@ export const App = () => (
           <div style={{backgroundColor:"gray", display: "flex", height: "60px", alignItems: 'center'}}>
             <p>© Jonathan Sandström</p>
             <Navbar>
-              <Nav id="navBarFooter" className="text-white" >
-            <NavItem >
-              <Link to="/about">About</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/featured">Featured</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/portfolio">Portfolio</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/blog">Blog</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/contact">Contact</Link>
-            </NavItem>
-          </Nav>
+              <Nav id="navBarFooter">
+                <NavItem >
+                  <Link to="/about">About</Link>
+                </NavItem>
+                <NavItem>
+                  <Link to="/featured">Featured</Link>
+                </NavItem>
+                <NavItem>
+                  <Link to="/portfolio">Portfolio</Link>
+                </NavItem>
+                <NavItem>
+                  <Link to="/blog">Blog</Link>
+                </NavItem>
+                <NavItem>
+                  <Link to="/contact">Contact</Link>
+                </NavItem>
+              </Nav>
             </Navbar>
-            
           </div>
         </footer>
     </BrowserRouter>

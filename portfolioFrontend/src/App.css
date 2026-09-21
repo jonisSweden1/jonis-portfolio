@@ -4,7 +4,7 @@
   margin: auto;
 }
 
-nav {
+#navBarHeader {
   background-color: #C3C3C380;
   display: flex;
   flex-direction: row;
@@ -12,6 +12,7 @@ nav {
 }
 
 #navBarMiddleSection {
+  background-color: #C3C3C380;
   display: flex;
   flex-direction: row;
   gap: 27px;
@@ -23,4 +24,10 @@ nav {
   flex-direction: row; 
   margin: auto;
   gap: 27px;
+}
+
+#navBarFooter {
+  display: flex;
+  margin: 0 20px;
+  gap: 10px;
 }

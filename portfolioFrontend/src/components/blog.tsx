@@ -1,20 +1,23 @@
-import { Card, CardBody, CardHeader, CardImg, CardText, CardTitle } from "react-bootstrap";
+import "./blog.css"
+import TestPicture from "../images/preview-4m4em958.png"
+import { Button, Card, CardBody, CardHeader, CardImg, CardText, CardTitle } from "react-bootstrap";
 
 // This is a component for Blog, where it is going to put an embedded link to PDF file.
 export function BlogCard() {
     return (
         <Card>
             <CardHeader>
-                <CardImg/>
+                <CardImg id="blogCardImg" src={TestPicture}/>
                 <CardTitle>
-
+                    Blog Title
                 </CardTitle>
             </CardHeader>
             <CardBody>
                 <CardText>
-
+                    Card Description
                 </CardText>
             </CardBody>
+            <Button>Go to blog</Button>
         </Card>
     )
 }
