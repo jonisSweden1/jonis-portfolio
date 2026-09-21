@@ -3,13 +3,13 @@ import TestPicture from "../images/preview-4m4em958.png"
 import { Button, Card, CardBody, CardHeader, CardImg, CardText, CardTitle } from "react-bootstrap";
 
 // This is a component for Blog, where it is going to put an embedded link to PDF file.
-export function BlogCard() {
+export function BlogCard(title: string, ) {
     return (
         <Card>
             <CardHeader>
                 <CardImg id="blogCardImg" src={TestPicture}/>
                 <CardTitle>
-                    Blog Title
+                    {title}
                 </CardTitle>
             </CardHeader>
             <CardBody>
@@ -21,7 +21,7 @@ export function BlogCard() {
         </Card>
     )
 }
-
+/*
 export function Blog({title} : {title:string}) {
     return (
         <div>
@@ -31,3 +31,4 @@ export function Blog({title} : {title:string}) {
         </div>
     )
 }
+    */
