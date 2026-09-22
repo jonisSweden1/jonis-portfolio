@@ -3,16 +3,15 @@ import { projects, TypeOfProject } from "../data/projects.ts"
 import "./PortfolioPage.css"
 
 export function PortfolioPage() {
-    const projectsIndieWorkData = projects.filter(project => project.getTypeOfProject() === TypeOfProject.Independent)
-    const projectsSchoolWorkData = projects.filter(project => project.getTypeOfProject() === TypeOfProject.School)
+    const allProjectsSorted = projects.sort((n1, n2) => n1.getId() - n2.getId())
 
-    const projectsIndieWorkSort = projectsIndieWorkData.sort((n1, n2) => n1.getId() - n2.getId())
-    const projectsSchoolWorkSort = projectsSchoolWorkData.sort((n1, n2) => n1.getId() - n2.getId())
+    const projectsIndieWorkData = allProjectsSorted.filter(project => project.getTypeOfProject() === TypeOfProject.Independent)
+    const projectsSchoolWorkData = allProjectsSorted.filter(project => project.getTypeOfProject() === TypeOfProject.School)
 
-      const projectIndieCards = projectsIndieWorkSort.map(project => 
+      const projectIndieCards = projectsIndieWorkData.map(project => 
         <ProjectCard key={project.getId()} imgSrc={project.getImageUrl()} title={project.getTitle()} author={project.getAuthor()} description={project.getDescription()} url={project.getUrl()}/>
       );
-      const projectSchoolCards = projectsSchoolWorkSort.map(project =>
+      const projectSchoolCards = projectsSchoolWorkData.map(project =>
         <ProjectCard key={project.getId()} imgSrc={project.getImageUrl()} title={project.getTitle()} author={project.getAuthor()} description={project.getDescription()} url={project.getUrl()}/>
       );
     
