@@ -4,9 +4,41 @@
   margin: auto;
 }
 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    background-color: white;
+    pointer-events: all;
+  }
+  10% {
+    opacity: 1;
+    background-color: white;
+    pointer-events: all;
+  }
+  99% {
+    opacity: 0;
+    pointer-events: auto;
+  }
+  100% {
+    opacity: 0;
+    background-color: white;
+    pointer-events: none;
+  }
+}
+
+#animation-app-beginning {
+  position:fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vw;
+
+  animation: fadeOut 1s ease-out forwards;
+}
+
 #navBarHeader {
   background-color: #C3C3C380;
   display: flex;
+  z-index: 0;
   flex-direction: row;
   margin: auto, 0, auto, 0;
 }

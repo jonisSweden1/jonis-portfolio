@@ -17,7 +17,10 @@ import { BlogPage } from "./sides/BlogPage"
 export const App = () => (
   <Provider store={store}>
     <BrowserRouter basename="jonis-portfolio">
-      <Navbar id="navBarHeader">
+    <div>
+
+    <div id="animation-app-beginning"/>
+<Navbar id="navBarHeader">
           <NavbarBrand>
             <Link to="/">
             <img src={logo} id="websiteLogo" alt="website_logo"/>
@@ -98,6 +101,7 @@ export const App = () => (
             </Navbar>
           </div>
         </footer>
+        </div>
     </BrowserRouter>
   </Provider>
 )
