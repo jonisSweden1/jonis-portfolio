@@ -27,7 +27,7 @@ export function BlogCard({
 
     return (
         <Card style={{width: "300px"}}>
-            <CardHeader>
+            <CardHeader style={{height: "300px"}}>
                 <CardImg id="blogCardImg" src={blogImg}/>
                 <CardTitle>
                     {title}

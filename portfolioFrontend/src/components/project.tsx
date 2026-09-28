@@ -1,3 +1,4 @@
+import "./project.css"
 import { Button, Card, CardBody, CardHeader, CardImg, CardText, CardTitle } from "react-bootstrap"
 
 export default function ProjectCard({
@@ -13,7 +14,7 @@ export default function ProjectCard({
   description: string
   url: string}) {
     return (
-        <Card style={{width: '18rem', boxShadow: "5px 5px 5px rgba(0, 0, 0, 0.2)"}}>
+        <Card id="projectCard">
           <CardImg variant="top" src={imgSrc}/>
           <CardHeader>
             <CardTitle>{title} : {author}</CardTitle>

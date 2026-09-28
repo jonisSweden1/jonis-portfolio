@@ -71,7 +71,7 @@ export const projects: Project[] = [
         id:2, 
         title:"High Command", 
         author: "Perception Studios",
-        description:"High Command is a game made in LBS Kreativa Gymnasiet. The game was nominated for best 3D graphics in LBS Awards 2023.", 
+        description:"High Command is a game made in LBS Kreativa Gymnasiet - Borås. The game was nominated for best 3D graphics in LBS Awards 2023.", 
         typeOfProject:TypeOfProject.School,
         imageUrl:highCommandProjectPicture,
         url:"https://perception-studios.itch.io/high-command"
@@ -98,7 +98,7 @@ export const projects: Project[] = [
         id:4,
         title: "Cyborg of Time",
         author: "Specinest Studios",
-        description:"Cyborg of Time is a first game project made in LBS Kreativa Gymnasiet. It happened to be my first game project using a SCRUM-method.",
+        description:"Cyborg of Time is a first game project made in LBS Kreativa Gymnasiet - Borås. It happened to be my first game project using a SCRUM-method.",
         typeOfProject:TypeOfProject.School,
         imageUrl:cyborgOfTimeProjectPic,
         url: 'https://www.indiedb.com/groups/unity-devs/downloads/cyborg-of-time-full-release'
@@ -107,7 +107,7 @@ export const projects: Project[] = [
         id:3,
         title: "Ragnark - End of Worlds",
         author: "Malko Studios",
-        description:"Ragnark - End of Worlds is a game made in LBS Kreativa Gymnasiet. There is no download for the game unfornunatelly, so this is what we got.",
+        description:"Ragnark - End of Worlds is a game made in LBS Kreativa Gymnasiet - Borås. There is no download for the game unfornunatelly, so this is what we got.",
         typeOfProject:TypeOfProject.School,
         imageUrl:ragnarokEndOfWorlds,
         url: "https://gamejolt.com/@MalkoStudios"

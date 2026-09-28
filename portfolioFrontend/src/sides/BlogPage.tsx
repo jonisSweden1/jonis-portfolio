@@ -27,6 +27,9 @@ export function BlogPage() {
         <div style={{display: "flex", gap: "20px"}}>
             {changeLogCards}
         </div>
+        <div style={{height: "100px"}}>
+
+        </div>
     </div>
     )
 }

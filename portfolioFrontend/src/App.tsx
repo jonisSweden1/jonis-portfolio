@@ -27,7 +27,7 @@ export const App = () => (
             </Link>
           </NavbarBrand>
 
-          <Nav id="navBarMiddleSection" className="text-white" >
+          <Nav id="navBarMiddleSection">
             <NavItem >
               <Link to="/about">About</Link>
             </NavItem>
@@ -39,9 +39,6 @@ export const App = () => (
             </NavItem>
             <NavItem>
               <Link to="/blog">Blog</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/contact">Contact</Link>
             </NavItem>
           </Nav>
 
@@ -78,9 +75,10 @@ export const App = () => (
         </Routes>
 
         <footer>
-          <div style={{backgroundColor:"gray", display: "flex", height: "60px", alignItems: 'center'}}>
-            <p>© Jonathan Sandström</p>
+          <div id="footer-section" >
+            
             <Navbar>
+              <p>© Jonathan Sandström</p>
               <Nav id="navBarFooter">
                 <NavItem >
                   <Link to="/about">About</Link>
@@ -93,9 +91,6 @@ export const App = () => (
                 </NavItem>
                 <NavItem>
                   <Link to="/blog">Blog</Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/contact">Contact</Link>
                 </NavItem>
               </Nav>
             </Navbar>
