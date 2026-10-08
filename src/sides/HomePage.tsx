@@ -1,5 +1,5 @@
 import "./HomePage.css"
-import background from '../images/Soothing-nature-backgrounds-2.jpg'
+import background from '../images/background/Soothing-nature-backgrounds-2.jpg'
 import profile from '../images/J_Öland_foto.jpg'
 import ProjectCard from "../components/project.tsx"
 import { projects } from "../data/projects.ts"
