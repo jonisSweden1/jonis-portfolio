@@ -107,7 +107,13 @@ export const AboutPage = () => (
                 <ul>
                     <li>
                         <h2 style={{fontSize: "30px", color: "", padding: '0 50px 0 50px'}}>Warehouse Worker</h2>
-                        <p style={{fontSize: "20px", color: "", padding: '0 50px 0 50px'}}>At: [Company Name]</p>
+                        <p style={{fontSize: "20px", color: "", padding: '0 50px 0 50px'}}>At: ICA City Centrum</p>
+                        <p style={{fontSize: "20px", color: "", padding: '0 50px 0 50px'}}>Duration: 2019 - 2019</p>
+                    </li>
+                    <li>
+                        <h2 style={{fontSize: "30px", color: "", padding: '0 50px 0 50px'}}>Warehouse Worker</h2>
+                        <p style={{fontSize: "20px", color: "", padding: '0 50px 0 50px'}}>At: Musiklagret</p>
+                        <p style={{fontSize: "20px", color: "", padding: '0 50px 0 50px'}}>Duration: 2018 - 2018</p>
                     </li>
                 </ul>
             </div>

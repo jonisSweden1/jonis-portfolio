@@ -19,12 +19,12 @@ export function BlogPage() {
     return(
     <div>
         <h1>Dev Logs</h1>
-        <div style={{display: "flex", gap: "20px"}}>
+        <div style={{display: "flex", gap: "20px", flexWrap:"wrap"}}>
             {devLogCards}
         </div>
         <hr/>
         <h1>Change Logs</h1>
-        <div style={{display: "flex", gap: "20px"}}>
+        <div style={{display: "flex", gap: "20px", flexWrap:"wrap"}}>
             {changeLogCards}
         </div>
         <div style={{height: "100px"}}>

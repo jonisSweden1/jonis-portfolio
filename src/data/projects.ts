@@ -80,10 +80,10 @@ export const projects: Project[] = [
         id:1,
         title:"The Joy of Corpse Party",
         author:"Jonathan Sandström",
-        description:"The Joy of Corpse Party is a game made by Jonathan Sandström. This game is going to be published as a working prototype in itch.io soon. But meanwhile, there is a GitHub repository for the project.",
+        description:"The Joy of Corpse Party is a game made by Jonathan Sandström. Designed and implemented a 3D horror game in Unity, with a focus on stealth and survival mechanics. The game features a unique storyline, immersive environments, and challenging gameplay that keeps players on edge.",
         typeOfProject:TypeOfProject.Independent,
         imageUrl:joyOfCorpsePartyProjectPic,
-        url:"https://github.com/jonisSweden1/TheJoyOfCorpseParty"
+        url:"https://jonissweden.itch.io/the-joy-of-corpse-party"
     }),
     new Project({
         id:0,
@@ -92,7 +92,7 @@ export const projects: Project[] = [
         description:"Fast Food Simulator is a game made by Jonathan Sandström. Mostly inspired by Fast Food Simulator by No Ceiling Games. This game is going to be an improvement from that game by fixing the game balance.",
         typeOfProject:TypeOfProject.Independent,
         imageUrl:"",
-        url:"https://github.com/jonisSweden1/FastFoodSimulator"
+        url:"https://jonissweden.itch.io/fast-food-simulator"
     }),
     new Project({
         id:4,
@@ -107,7 +107,7 @@ export const projects: Project[] = [
         id:3,
         title: "Ragnark - End of Worlds",
         author: "Malko Studios",
-        description:"Ragnark - End of Worlds is a game made in LBS Kreativa Gymnasiet - Borås. There is no download for the game unfornunatelly, so this is what we got.",
+        description:"Ragnark - End of Worlds is a game made in LBS Kreativa Gymnasiet - Borås. There is no download for the game unfortunately, so this is what we got.",
         typeOfProject:TypeOfProject.School,
         imageUrl:ragnarokEndOfWorlds,
         url: "https://gamejolt.com/@MalkoStudios"
